@@ -1,0 +1,14 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    max-width: 1080px;
+}
+
+@media screen and (max-width: 660px) {
+    .logoHeader {
+        width: 220px;
+        margin-top: 24px;
+    }
+}
